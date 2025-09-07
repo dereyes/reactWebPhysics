@@ -24,7 +24,7 @@ export function GameScene() {
         <planeGeometry args={[1, 1]} />
         <meshBasicMaterial color="hotpink" />
       </mesh> */}
-      <Physics gravity={[0, -9.81, 0]}>
+      <Physics gravity={[0, -9.81, 0]} debug>
         <PhysFruit />
         {/* A static ground plane created using a CuboidCollider */}
         <CuboidCollider
